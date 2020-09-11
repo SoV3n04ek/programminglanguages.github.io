@@ -1,0 +1,109 @@
+div { 
+	display: block;
+ }
+ body {
+	 padding: 0px;
+	 background-color:white; 
+	 margin: 0px;
+
+
+ }
+ header , footer {
+ 	text-align: center;
+ 	background-color:#1CCECE; 
+ 	padding: 0px 0px  ;
+ 	border: solid purple;
+ 	border-left:dashed #2BA5A5; ;
+ 	border-right:dashed #2BA5A5;
+  
+ }
+ h3 , h2 { 
+ 	font-family: Geneva, Arial, Helvetica, sans-serif;
+ 	background-color: white;
+ 	padding: 10px;
+
+ }
+ .content { 
+ 	width: 1200px;
+ 	margin: 0 auto; 
+ 	overflow:hidden;	
+  }
+  img {
+  	padding-top: 15px;
+  }
+  aside, main {
+  	width: 50%;
+  	float:left;
+  }
+ aside img { 
+	 width: 80%;
+	 display:  block;
+	 margin: 0 auto;
+	 padding: 15px;
+	 padding-right: 0px;
+	 padding-left: 0px;
+  }
+  a {
+  	color: black;
+  }
+  p {
+  	font-family: Geneva, Arial, Helvetica, sans-serif;
+  	font-size: 22px;
+  }
+ .post_text { 
+  	text-align: justify;
+   }
+ .post_title {
+ 	font-family: cusive ;
+ 	margin-bottom:10px;
+ }
+ a:hover { 
+color:green;
+  }
+/* Меню сайта */
+.navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.navbar li{
+  display: inline;
+  margin: 0px 10px;
+}
+
+.navbar a{
+  border: 2px solid white;
+  padding: 5px 10px;
+  background-color: #164950;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+.navbar a:hover {
+  background-color: #54a8a8;
+  color: #d2d8d5;
+}
+
+.social li {
+  list-style-type: none;
+  /*display: inline-block;*/
+  margin-left: 10px;
+}
+
+.social li a{
+  width: 20px;
+  color: #fff;
+  font-size: 30px;
+  margin-right: 55px;
+  padding-bottom: 20px;
+}
+.social {
+  text-align: center;
+ }
+ .social li a:hover {
+  color: purple;
+ }
